@@ -140,7 +140,7 @@
             const dangbottom = parseFloat(getComputedStyle(dang).getPropertyValue("bottom"));
             const blockleft = parseFloat(getComputedStyle(block).getPropertyValue("left"));
             const gameover = document.getElementById("gameover");
-            if(blockleft<15&&blockleft>-15&&dangbottom<15&&dangbottom>-15){
+            if(blockleft<20&&blockleft>-20&&dangbottom<20&&dangbottom>-20){
                 gameover.innerHTML = "游戏结束，你失败了！";
                 gameover.style.color = "red";
                 gameover.style.fontSize = "24px";
